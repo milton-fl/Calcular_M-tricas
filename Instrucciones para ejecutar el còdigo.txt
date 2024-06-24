@@ -1,0 +1,9 @@
+%  Desde el entorno de comandos de MATLAB, podemos llamar a la función calcularMetricsMATLAB 
+%proporcionando el nombre del archivo .m que se desea analizar. 
+
+% para este ejemplo utilizaremos el siguiente codigo:
+
+nombre_archivo = 'Lectura_csv.m'; % Nombre del archivo .m que deseas analizar
+[LOC, ELOC, CLOC, CCR, NCLOC, BLOC] = calcularMetricsMATLAB(nombre_archivo);
+
+% El archivo llamado (Lectura_csv.m) està almacenado en el mismo directorio desde el cual estás ejecutando MATLAB. 
